@@ -1,0 +1,30 @@
+.admin {
+    margin: 20px auto;
+    & h2 {
+        text-align: center;
+    }
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+
+    & .rank__system {
+        margin: 5px auto;
+        width: 300px;
+        display: flex;
+
+        & div {
+            width: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 5px;
+        }
+
+        & .name {
+            width: 140px;
+        }
+    }
+}
